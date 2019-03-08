@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: v1
+  kind: ImageStream
+  metadata:
+    name: product-catalog-lab3
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: product-catalog-lab3@sha256:13e95b1bf069613d75e1b3b74beff991432ac7168ca225a8e734dc26755a9ded
+        namespace: vvergara-demo-spring
+      name: 1.0.0

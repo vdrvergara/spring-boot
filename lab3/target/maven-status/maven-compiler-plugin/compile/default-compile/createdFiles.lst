@@ -1,0 +1,4 @@
+com/redhat/coolstore/productcatalog/Product.class
+com/redhat/coolstore/productcatalog/ProductRepository.class
+com/redhat/coolstore/productcatalog/ProductCatalogApplication.class
+com/redhat/coolstore/productcatalog/ProductCatalogService.class
